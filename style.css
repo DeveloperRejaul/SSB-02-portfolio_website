@@ -1,0 +1,268 @@
+
+.font-bold{
+ font-weight: bold;
+}
+img{
+    max-width: 100%;
+}
+.font-bold{
+    font-weight: bold;
+}
+
+/* Header Style */
+.jon-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.jon-header span {
+    color: white;
+    text-align: center;
+    height: 41px;
+    display: inline-block;
+    width: 35px;
+    border-radius: 10px;
+}
+.btn-outline-primary {
+    font-weight: bold;
+}
+.jon-ml{
+    margin-left: 70px;
+}
+.jon-menu .nav-link {
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+}
+.btn-block {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    margin-left: -40px;
+    background: #5ba533;
+}
+/* Slider-Section */
+.slider-section{
+    background: url(https://www.linkpicture.com/q/mbr-4.jpg) no-repeat center center ;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.slider-section::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-section h2{
+    font-size: 40px;
+}
+.slider-section h4{
+    font-size: 20px;
+}
+.slider-section-from {
+    max-width: 530px;
+    margin: auto;
+}
+.btn-01 {
+    width: 69%;
+    float: left;
+}
+.btn-02{
+    width: 30%;
+    float:right;
+}
+/* abute-section */
+.abute-section{
+    background: #f7f9ff;
+}
+.abute-text-01 {
+    line-height: 2.5rem;
+}
+.abute-section .img-right{
+    float: right;
+    height: 320px;
+    width: auto;
+}
+/* future-section-02 */
+.feuter-item {
+    height: 300px;
+    box-shadow: 4px 5px 20px 0px rgba(64,87,191, 0.1);
+}
+.left-img-future {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text-future{
+    width: 60%;
+}
+.right-text-future p{
+    font-size: 15px;
+}
+.left-img-future img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+/* portfolio-section */
+.portfolio-item img {
+    box-shadow: 4px 5px 20px 0px rgba(64,87,191, 0.1);
+}
+
+.portfolio-item{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.portfolio-item a{ 
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.portfolio-item a::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:0;
+    background: rgba(98, 120, 223, .7);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.portfolio-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height:100%;
+    transform: translate(0);
+}
+
+/* Card Section Starts Here */
+.card{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .1);
+}
+.card-item p i{
+    color: #22a6f2;
+    margin-right: 10px;
+}
+.card-btn{
+    text-align: center;
+    margin-right: 42px;
+}
+/* Card Section Ends Here */
+
+
+/* media section stats here */
+.media-bodi {
+    display: flex;
+    justify-content: center;
+}
+.media-bodi p{
+    max-width: 70%;
+}
+
+/* Other Roles */
+.anether-info {
+    width: 154px;
+    margin: auto;
+}
+.anether-info img {
+    margin-right: 15px;
+}
+.anether-info .user-dites {
+    padding-top: 13px;
+}
+/* Other Roles */
+
+/* media section ends here */
+
+
+@media(max-width:768px){
+    
+}
+
+
+/* Card Section Start */
+.card img{
+    margin-left: 20px;
+}
+/* Card Section Ends */
+
+/* Contact Us CSS Style */
+.content-form-div .card{
+    box-shadow: 4px 5px 20px 0px rgba(64,87,191, .2);
+}
+.btn-android {
+    width: 170px;
+    height: 48px;
+}
+.app-contact img {
+    width: 500px;
+    height: auto;
+}
+
+/* Footer Style CSS */
+
+footer{
+    background: rgb(78, 75, 75);
+}
+
+@media (min-width: 768px) {
+    .abute-text-01 {
+        line-height: 2rem;
+    }
+    .card-item .text-muted {
+        font-size: 12px;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .h2.font-bold.mb-5 {
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+    .abute-section .img-right {
+        height: 214px;
+    }
+    .abute-text-01 {
+        line-height: 2rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 390px){
+    .col-lg-4.col-md-4.col-sm-4 {
+        display: flex;
+        justify-content: center;
+    }
+    .cart-header-01.text-center.pb-5 {
+        padding-bottom: 0px !important;
+    }
+    .card {
+        padding: 10px !important;
+    }
+    .col-lg-3.col-md-6.col-sm-6 {
+        padding-bottom: 15px;
+    }
+    .font-bold.pb-2.shadow-sm.d-inline-block.px-3 {
+        font-size: 25px;
+        padding-left: 0px !important;
+    }
+    .btn.btn-lg.btn-primary.btn-android.ml-3 {
+        margin-left: 0px !important;
+    }
+}
